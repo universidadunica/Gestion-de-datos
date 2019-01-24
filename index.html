@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!-- Estos links son los que le daran estilos al proyecto, bien aqui puse bootstrap pero tambien podemos hacer los enlaces
+        a los estilos que querramos -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+<style media="">
+.muro{-webkit-box-shadow: 1px 5px 17px -1px rgba(0,0,0,0.85);
+-moz-box-shadow: 1px 5px 17px -1px rgba(0,0,0,0.85);
+box-shadow: 1px 5px 17px -1px rgba(0,0,0,0.85);
+border-radius:5px;background: white}
+.img-shadow{-webkit-box-shadow: 1px 5px 15px 0px rgba(0,0,0,0.85);
+-moz-box-shadow: 1px 5px 15px 0px rgba(0,0,0,0.85);
+box-shadow: 1px 5px 15px 0px rgba(0,0,0,0.85);
+border-radius:5px;}
+body {
+
+/* Ubicación de la imagen */
+
+/* background-image: url(img/fondo.jpg); */
+
+/* Para dejar la imagen de fondo centrada, vertical y
+
+horizontalmente */
+
+background-position: center center;
+
+/* Para que la imagen de fondo no se repita */
+
+background-repeat: no-repeat;
+
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+background-attachment: fixed;
+
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+background-size: cover;
+
+/* Se muestra un color de fondo mientras se está cargando la imagen
+
+de fondo o si hay problemas para cargarla */
+
+background-color: ;
+
+}
+
+</style>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$("img").fadeIn(3000);
+	$(".efecto-1").fadeIn(2000);
+	$(".efecto-2").fadeIn(3000);
+});
+</script>
+  </head>
+  <body >
+    <br>
+    <div class="container muro" id="muro">
+
+    <h1 class="text-center text-primary"> Bienvenidos chicos!</h1>
+    <div class="text-center col-xs-12 col-sm-4 col-md-4">Si alguien tuviese la forma de recomendar algun dominio seria bueno para ejecutar
+    los archivos .php y otras extensiones del lado del servidor.
+  </div>
+    <div class="text-center col-xs-12 col-sm-4 col-md-4">
+    <br class="visible-xs">Y ya que es un sistema de gestion de datos, que tal si definimos los modulos con los que trabajeremos.
+  </div>
+    <div class="text-center col-xs-12 col-sm-4 col-md-4">
+    <br class="visible-xs">Creo que seria muy importante empezar definiendo la estructura del proyecto.En mi caso las configuraciones de usuario la dejo por ultimo Igual
+    puede ser diferente en este caso.
+  </div>
+
+<br class="visible-xs">
+
+<div class="row">
+
+   <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">                       <img width="100%" height="" src="img/imagen1.jpg" style="display:none"class="img-responsive img-shadow" alt="Cinque Terre"></div>
+   <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"><br class="visible-xs"><img width="100%" height="" src="img/imagen2.jpg" style="display:none"class="img-responsive img-shadow" alt="Cinque Terre"></div>
+   <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"><br class="visible-xs"><img width="100%" height="" src="img/imagen3.jpg" style="display:none"class="img-responsive img-shadow" alt="Cinque Terre"></div>
+   <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"><br class="visible-xs"><img width="100%" height="" src="img/imagen4.jpg" style="display:none"class="img-responsive img-shadow" alt="Cinque Terre"></div>
+
+</div>
+
+<br>
+</div>
+<br><div class="text-center">
+<button  class="btn btn-success btn-lg active">Iniciar sistema</button>
+</div>
+<br>
+<div class="col-md-4  text-center">
+<font size="5">
+<p class="service-heading efecto-1" style="display:none">Objetivo</p>
+<p class="text-muted efecto-2" style="display:none;">Aqui podemos poner notas para recordarnos siempre cual es el verdadero objetivo de este proyecto.
+</p></font>
+</div>
+<div class="col-md-4  text-center">
+<font size="5">
+<p class="service-heading efecto-1" style="display:none">Seguridad</p>
+<p class="text-muted efecto-2" style="display:none;">De forma que nos
+  guie en caso de desviarnos del proposito por el cual lo empezamos.
+</p></font>
+</div>
+<div id="cuadrado" style="position:obsolute;"class="col-md-4  text-center">
+<font size="5">
+<p class="service-heading efecto-1" style="display:none">Confianza</p>
+<p class="text-muted efecto-2" style="display:none;">Y asi logremos obtener crear un sistema con una base correctamente fundamentada.
+</p></font><br>
+</div>
+
+<div id="cuadrado" style="position:obsolute;float:center;"class="<col-md-12></col-md-12>  text-center">
+<br>
+<font size="5">
+<p class="service-heading efecto-1" style="display:none">Exito</p>
+<p class="text-muted efecto-2 text-success" style="display:none;">El exito es el conjunto de pequeños esfuerzos.
+</p></font>
+
+</div>
+  </body>
+</html>
